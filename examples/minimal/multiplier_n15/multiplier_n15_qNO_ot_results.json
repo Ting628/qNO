@@ -1,0 +1,103 @@
+{
+  "circuit": "multiplier_n15",
+  "sdk": "qNO",
+  "runtime_sec": 0.0101,
+  "source": {
+    "hardware_native_qasm": "D:\\Project\\OT\\qNOcircuit\\20_new\\multiplier_n15\\hardware_native.qasm",
+    "layout": "hardware_profiles/Garnet.layout",
+    "metrics_json": "D:\\Project\\OT\\qNOcircuit\\20_new\\multiplier_n15\\metrics.json"
+  },
+  "num_qubits": 20,
+  "layout_info": {
+    "num_qubits": 20,
+    "edge_count": 60
+  },
+  "timing_model": {
+    "kind": "BackendNormalized"
+  },
+  "basis_policy": {
+    "allowed_gates": [
+      "rz",
+      "sx",
+      "x",
+      "cz",
+      "swap"
+    ],
+    "allowed_1q": [
+      "id",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "entangling_gate": "cz",
+    "swap_policy": "decompose_3cx",
+    "swap_mult": 3.0
+  },
+  "backend_calibration": {
+    "source": "layout",
+    "layout": "hardware_profiles/Garnet.layout"
+  },
+  "ignored_measurements": true,
+  "asap": {
+    "OT_total": 493.0000000000026,
+    "gate_counts": {
+      "rz": 1188,
+      "sx": 940,
+      "cz": 453,
+      "x": 4
+    },
+    "swap_count": 77,
+    "depth": 1181,
+    "depth_2q": 259,
+    "ot_2q": 259.0,
+    "neg_gate": 3.182150566444903,
+    "neg_decoh": 2.9580000000000157,
+    "neg_decoh_2q": 1.5540000000000003,
+    "neg_total_full": 6.100150566444919,
+    "neg_total_2q": 4.736150566444904,
+    "ESP_gate": 0.04149631850327798,
+    "ESP_decoh": 0.05192265871403126,
+    "log10_ESP_gate": -1.3819904315923284,
+    "log10_ESP_decoh": -1.2846430774698256,
+    "log10_ESP_total": -2.666633509062154,
+    "log10_ESP_2Q": -2.0568840564699817,
+    "t_unit_sec": 6.000000000000001e-08,
+    "time_unit": "tick",
+    "units": {
+      "OT_total": "tick",
+      "ot_2q": "tick"
+    },
+    "schedule_time_ms": 5.94680000358494
+  },
+  "alap": {
+    "OT_total": 493.0000000000026,
+    "gate_counts": {
+      "rz": 1188,
+      "sx": 940,
+      "cz": 453,
+      "x": 4
+    },
+    "swap_count": 77,
+    "depth": 1181,
+    "depth_2q": 259,
+    "ot_2q": 259.0,
+    "neg_gate": 3.182150566444903,
+    "neg_decoh": 2.9580000000000157,
+    "neg_decoh_2q": 1.5540000000000003,
+    "neg_total_full": 6.140150566444919,
+    "neg_total_2q": 4.736150566444904,
+    "ESP_gate": 0.04149631850327798,
+    "ESP_decoh": 0.05192265871403126,
+    "log10_ESP_gate": -1.3819904315923284,
+    "log10_ESP_decoh": -1.2846430774698256,
+    "log10_ESP_total": -2.666633509062154,
+    "log10_ESP_2Q": -2.0568840564699817,
+    "t_unit_sec": 6.000000000000001e-08,
+    "time_unit": "tick",
+    "units": {
+      "OT_total": "tick",
+      "ot_2q": "tick"
+    },
+    "schedule_time_ms": 14.531900000292808
+  }
+}
