@@ -1,0 +1,10 @@
+qasm_group,file_name,circuit,two_qubit_gates,path
+21-27,knn_n25_transpiled.qasm,knn_n25,96,qasm\21-27\knn_n25_transpiled.qasm
+circuit10,adder_n10_transpiled.qasm,adder_n10,65,qasm\circuit10\adder_n10_transpiled.qasm
+circuit10,qpe_n9_transpiled.qasm,qpe_n9,43,qasm\circuit10\qpe_n9_transpiled.qasm
+circuit10,vqe_uccsd_n8_transpiled.qasm,vqe_uccsd_n8,5284,qasm\circuit10\vqe_uccsd_n8_transpiled.qasm
+circuit127,qugan_n111_transpiled.qasm,qugan_n111,872,qasm\circuit127\qugan_n111_transpiled.qasm
+circuit20,qft_n18_transpiled.qasm,qft_n18,306,qasm\circuit20\qft_n18_transpiled.qasm
+circuit20,qram_n20_transpiled.qasm,qram_n20,136,qasm\circuit20\qram_n20_transpiled.qasm
+circuit433,knn_341_transpiled.qasm,knn_341,1360,qasm\circuit433\knn_341_transpiled.qasm
+circuit433,qft_n320_transpiled.qasm,qft_n320,23960,qasm\circuit433\qft_n320_transpiled.qasm

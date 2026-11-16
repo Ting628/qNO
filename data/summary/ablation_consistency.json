@@ -1,0 +1,20 @@
+{
+  "summary_rows": 512,
+  "group_mean_rows": 12,
+  "delta_rows": 384,
+  "max_group_mean_abs_error": {
+    "nlsp": 4.547473508864641e-13,
+    "swap_count": 2.842170943040401e-14,
+    "ot_total": 2.9103830456733704e-11,
+    "runtime_sec": 4.440892098500626e-16,
+    "depth": 0.0
+  },
+  "delta_join_counts": {
+    "both": 384,
+    "left_only": 0,
+    "right_only": 0
+  },
+  "max_baseline_nlsp_abs_error": 0.0,
+  "max_delta_nlsp_pct_abs_error": 5.684341886080802e-14,
+  "valid": true
+}

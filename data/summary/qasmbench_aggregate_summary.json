@@ -1,0 +1,71 @@
+{
+  "rows": 128,
+  "scale_ratios_qno_over_sabre": {
+    "small": {
+      "SWAP": 1.0501425106145192,
+      "OT": 0.9626802339592528,
+      "NLSP": 0.9727462076003793,
+      "Runtime": 0.5680560708603335
+    },
+    "medium": {
+      "SWAP": 0.7081662044811609,
+      "OT": 0.7990142196081055,
+      "NLSP": 0.8790955756697854,
+      "Runtime": 0.9648964089972667
+    },
+    "large": {
+      "SWAP": 0.3985434087540637,
+      "OT": 0.6722176874219845,
+      "NLSP": 0.7924592606957872,
+      "Runtime": 1.149178515839518
+    }
+  },
+  "common_valid_counts": {
+    "small": {
+      "SWAP": 42,
+      "OT": 42,
+      "NLSP": 42,
+      "Runtime": 42
+    },
+    "medium": {
+      "SWAP": 23,
+      "OT": 23,
+      "NLSP": 23,
+      "Runtime": 23
+    },
+    "large": {
+      "SWAP": 50,
+      "OT": 52,
+      "NLSP": 50,
+      "Runtime": 50
+    }
+  },
+  "suite_nlsp_ratio_qno_over_sabre": 0.8719696661288272,
+  "suite_nlsp_common_count": 115,
+  "win_counts": {
+    "SWAP": {
+      "tket": 63,
+      "sabre": 68,
+      "duostra": 22,
+      "qNO": 77
+    },
+    "OT": {
+      "tket": 42,
+      "sabre": 33,
+      "duostra": 25,
+      "qNO": 115
+    },
+    "NLSP": {
+      "tket": 47,
+      "sabre": 41,
+      "duostra": 23,
+      "qNO": 102
+    },
+    "Runtime": {
+      "tket": 0,
+      "sabre": 57,
+      "duostra": 0,
+      "qNO": 73
+    }
+  }
+}
