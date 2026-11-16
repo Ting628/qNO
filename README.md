@@ -4,7 +4,7 @@ Selected materials accompanying **qNO: Objective-Informed Ranking and Routing fo
 
 ## Data and code availability
 
-The manuscript is currently under peer review. This public repository provides selected benchmark circuits, nominal hardware profiles, experimental result tables, and related documentation.
+The manuscript is currently under peer review. This public repository provides the archived benchmark circuit collection, nominal hardware profiles, experimental result tables, and related documentation.
 
 The complete implementation and evaluation code are not included in this public repository. For confidential access for editorial or peer-review assessment, please contact the journal editorial office to arrange access with the authors.
 
@@ -12,11 +12,11 @@ Other inquiries concerning access to the code may be directed to **jiating.yao@o
 
 ## Contents
 
-- `benchmark_inputs/`: three selected QASM input circuits (bv_n14, multiplier_n15, and dnn_n51); this is a sample, not the full benchmark input collection.
+- `benchmark_inputs/`: the complete archived benchmark-input directory from the previous research package, including 356 QASM circuit files and accompanying documentation/data files.
 - `hardware_profiles/`: nominal representative profiles for the four hardware sizes used in the study, with interpretation notes.
 - `data/results/`: per-circuit result tables and recorded failures.
 - `data/summary/`: derived summary and analysis tables.
-- `data/benchmark_manifest.csv`: reference inventory of the broader benchmark collection. Most inventory entries are not distributed in this selected-circuit repository.
+- `data/benchmark_manifest.csv`: inventory of the archived benchmark inputs, including file hashes and available upstream information. Inclusion in this input collection does not by itself establish inclusion in every reported experiment; use the experiment result tables to identify the evaluated cases.
 
 Some data-directory notes were written for the broader research package. The scope of the materials distributed here is defined by this README and the files present.
 
