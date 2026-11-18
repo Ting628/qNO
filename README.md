@@ -4,7 +4,7 @@ Selected materials accompanying **qNO: Objective-Informed Ranking and Routing fo
 
 ## Data and code availability
 
-The manuscript is currently under peer review. This public repository provides the archived benchmark circuit collection, nominal hardware profiles, experimental result tables, representative mapped-circuit examples, and related documentation.
+This public repository provides the archived benchmark circuit collection, nominal hardware profiles, experimental result tables, representative mapped-circuit examples, and related documentation.
 
 The complete implementation and evaluation code are not included in this public repository. For confidential access for editorial or peer-review assessment, please contact the journal editorial office to arrange access with the authors.
 
